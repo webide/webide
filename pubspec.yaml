@@ -1,0 +1,9 @@
+name: webide
+version: 0.0.1
+authors:
+- roberthartung
+- tejainece
+homepage: https://github.com/webide/webide
+dependencies:
+  browser: any
+  polymer: 0.10.0-pre.10
