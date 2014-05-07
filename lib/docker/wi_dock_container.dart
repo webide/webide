@@ -1,9 +1,9 @@
-library webide.layout.container;
+library webide.docker.container;
 
 import 'package:polymer/polymer.dart';
 
-@CustomTag('wi-container')
-class WebIdeContainer extends PolymerElement {
+@CustomTag('wi-dock-container')
+class WiDockContainer extends PolymerElement {
   
   /**
    * By default we want to show titles of the panels in this dock
@@ -13,7 +13,7 @@ class WebIdeContainer extends PolymerElement {
   
   @published bool horizontal = false;
   
-  WebIdeContainer.created() : super.created() {
+  WiDockContainer.created() : super.created() {
     
   }
   
