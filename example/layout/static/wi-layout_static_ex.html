@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="wi-layout_static_ex.css">
+    <link rel="import" href="packages/polymer/polymer.html">
+
+    <link rel="import" href="packages/webide/layout/wi-layout.html">
+    <script type="application/dart;component=1" src="wi-layout_static_ex.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <wi-layout id="main-layout">
+        <wi-layout-container id="main" vertical>
+          <wi-layout-container id="top">
+            <wi-panel id="left">
+            </wi-panel>
+            <wi-panel id="center">
+            </wi-panel>
+            <wi-layout-container id="right" vertical>
+              <wi-panel id="properties">
+              </wi-panel>
+      		  <wi-panel id="outline">
+              </wi-panel>
+      		  <wi-panel id="debigger">
+              </wi-panel>
+      	    </wi-layout-container>
+          </wi-layout-container>
+          <wi-layout-container id="bottom">
+            <wi-panel id="errors"></wi-panel>
+            <wi-panel id="output"></wi-panel>
+          </wi-layout-container>
+        </wi-layout-container>
+      </wi-layout>
+    </div>
+  </body>
+</html>

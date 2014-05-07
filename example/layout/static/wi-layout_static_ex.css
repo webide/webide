@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-container {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background-color: gray;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+
