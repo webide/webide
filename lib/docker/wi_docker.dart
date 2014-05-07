@@ -1,12 +1,12 @@
-library webide.layout.layout;
+library webide.docker;
 
 import 'package:polymer/polymer.dart';
 
-@CustomTag('wi-layout')
-class WebIdeLayout extends PolymerElement {
+@CustomTag('wi-docker')
+class WiDocker extends PolymerElement {
   @published String id;
   
-  WebIdeLayout.created() : super.created() {
+  WiDocker.created() : super.created() {
     
   }
   
