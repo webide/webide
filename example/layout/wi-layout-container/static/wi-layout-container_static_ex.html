@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="wi-layout-container_static_ex.css">
+    <link rel="import" href="packages/polymer/polymer.html">
+
+    <link rel="import" href="packages/webide/layout/wi-layout-container.html">
+    <script type="application/dart;component=1" src="wi-layout-container_static_ex.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </head>
+  <body>
+    <div id="vertical-layout-holder" class="holder">
+      <wi-layout-container id="vertical-layout" vertical>
+        <div id="div1">sdfasdf</div>
+        <div id="div2">sdfsdf</div>
+        <div id="div3">sdfsdf</div>
+      </wi-layout-container>
+    </div>
+    <div id="horizontal-layout-holder" class="holder">
+      <wi-layout-container id="horizontal-layout">
+        <div>sadfsdf</div>
+        <div>sdfsdf</div>
+        <div>sdfdsf</div>
+      </wi-layout-container>
+    </div>
+  </body>
+</html>
